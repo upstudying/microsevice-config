@@ -1,18 +1,3 @@
-﻿spring: 
-  profiles: 
-    active: 
-    - dev
----
-spring: 
-  profiles: dev     #开发环境
-    active: 
-    application: 
-      name: microservice-config-dev
----
-spring: 
-  profiles: test     #测试环境
-    active: 
-    application: 
-      name: microservice-config-test
-      
-# 文件必须以UTF-8格式保存
+﻿spring:
+  profiles:
+    active: dev
